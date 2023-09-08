@@ -3,8 +3,8 @@
 #include <stdio.h>
 /**
  * main - entry point
- * description : positive or negative or zero
- * Return : 0 (success)
+ * description: positive or negative or zero
+ * Return: 0 (success)
 */
 int main(void)
 {
