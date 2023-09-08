@@ -1,10 +1,10 @@
 #include <stdlib.h>
 #include <time.h>
 #include <stdio.h>
-/*
+/**
  * main - entry point
  * description : positive or negative or zero
- * return : 0 (success)
+ * Return : 0 (success)
  */
 int main(void)
 {
@@ -15,13 +15,13 @@ int main(void)
 
 	if (n > 0)
 	{
-		printf("%i The number is positive\n", n);
+		printf("%i is positive\n", n);
 	}
 	else if (n < 0)
 	{
-		printf("%i The number is negative\n", n);
+		printf("%i is negative\n", n);
 	}
 	else
-	printf("%i The number is zero\n", n);
+	printf("%i is zero\n", n);
 	return (0);
 }
