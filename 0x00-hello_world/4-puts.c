@@ -1,8 +1,8 @@
 #include <stdio.h>
-/*
+/**
  *  main - this is a printing program using puts
  * return - end of main
-*/
+ */
 int main(void)
 {
 puts("\"Programming is like building a multilingual puzzle");
