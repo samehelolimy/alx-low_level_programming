@@ -12,9 +12,9 @@ int main(void)
 
 	while (x <= 9)
 	{
-	putchar("%i", x);
+	printf("%i", x);
 	x++;
 	}
-	putchar('\n');
+	printf("\n");
 	return (0);
 }
