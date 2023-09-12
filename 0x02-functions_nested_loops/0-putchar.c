@@ -1,13 +1,14 @@
 #include <stdlib.h>
 #include <time.h>
 #include <stdio.h>
+#include <main.h>
 /**
  * main - starting point
- * description: print the alphabet in lowercase using putchar
+ * description: printing _putchar
  * Return: 0 (Successsed)
 */
 int main(void)
 {
-	putchar(%s, _putchar);
+	putchar('_putchar');
 	return (0);
 }
