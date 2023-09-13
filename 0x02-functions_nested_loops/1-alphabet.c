@@ -16,8 +16,5 @@ int main(void)
 	c++;
 	}
 	putchar('\n');
-	return;
 	}
-	print_alphabet(x)
-	return (0);
 }
