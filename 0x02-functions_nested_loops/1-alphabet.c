@@ -5,9 +5,7 @@
  * description: printing alphabet in lowercase
  * Return: 0 (Successsed)
 */
-int main(void)
-{
-	void print_alphabet(char c)
+	void print_alphabet(void)
 	{
 	char c = 'a';
 	while (c <= 'z')
@@ -17,4 +15,3 @@ int main(void)
 	}
 	putchar('\n');
 	}
-}
