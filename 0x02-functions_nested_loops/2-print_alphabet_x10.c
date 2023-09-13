@@ -19,5 +19,4 @@
 	putchar('\n');
 	x++;
 	}
-	putchar('\n');
 	}
