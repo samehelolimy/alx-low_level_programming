@@ -2,7 +2,8 @@
 
 /**
  * print_line -  printing a straight line
- * _________
+ * ________
+ * @n: our parameter
 */
 void print_line(int n)
 {
@@ -10,8 +11,9 @@ void print_line(int n)
 
 	for (i = 0 ; i <= n ; i++)
 	{
-	if (n == 0)
+	if (n <= 0)
 	putchar('\n');
+	else
 	putchar('_');
 	putchar('\n');
 }
