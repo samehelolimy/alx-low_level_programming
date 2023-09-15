@@ -2,7 +2,6 @@
 
 /**
  *Description: print_square -  printing a square
- * ________
  * @size: our parameter
 */
 void print_square(int size)
@@ -17,6 +16,9 @@ void print_square(int size)
 	for (i = 1 ; i <= size ; i++)
 	{
 	for (j = 1 ; j <= size ; j++)
+	{
+	putchar('#');
+	}
 	putchar('#');
 	putchar('\n');
 	}
