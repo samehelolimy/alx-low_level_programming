@@ -7,13 +7,13 @@ void more_numbers(void);
 {
 	int i, j, x;
 
-	for (i = 0 ; i <= 9 ; i++)
+	for (i = 1 ; i <= 10 ; i++)
 	{
 	for (j = 0 ; j <= 14 ; j++)
 	{
+	x = j;
 	if (j > 9)
 	{
-	x = j;
 	putchar(1 + 48);
 	x = j % 10;
 	}
