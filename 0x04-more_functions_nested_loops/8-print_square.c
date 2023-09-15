@@ -1,11 +1,11 @@
 #include "main.h"
 
 /**
- * print_line -  printing a straight line
+ *Description: print_square -  printing a square
  * ________
- * @n: our parameter
+ * @size: our parameter
 */
-void print_line(int n)
+void print_square(int size)
 {
 
 	int i, j;
