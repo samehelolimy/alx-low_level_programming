@@ -14,7 +14,7 @@
 	else if (n < 0)
 	putchar (45);
 	return (-1);
-	else
+	else if (n == 0)
 	putchar (48);
 	return (0);
 	return (0);
