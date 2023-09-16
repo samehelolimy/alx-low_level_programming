@@ -21,13 +21,14 @@ int main(void)
 	{
 	putchar (y + 48);
 	putchar (x + 48);
+	putchar (',');
 	}
 	else if (y > x)
 	{
 	putchar (x + 48);
 	putchar (y + 48);
-	}
 	putchar (',');
+	}
 	y++;
 	}
 	x++;
