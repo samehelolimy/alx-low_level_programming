@@ -14,19 +14,18 @@ int main(void)
 	{
 	while (y <= 9)
 	{
-		if (x > y) 
-		{
-		putchar ('yx');
-		y++;
-		else
-		if (y > x) 
-		{ 
-		putchar ('xy');
-		}
-		y++;
-		putchar (',');
+	if (x > y)
+	{
+	putchar ('y + x' + 48);
+	y++;
+	else if (y > x)
+	{
+	putchar ('x + y' + 48);
 	}
-		x++;
+	y++;
+	putchar (',');
 	}
-        return (0);
+	x++;
+	}
+	return (0);
 }
