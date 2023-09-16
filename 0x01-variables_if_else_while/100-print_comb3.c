@@ -17,10 +17,13 @@ int main(void)
 
 	while (y <= 9)
 	{
-	if (x > y && x != y)
+	if (y > x && x != y)
 	{
 	putchar (y + 48);
 	putchar (x + 48);
+	}
+	if ((x + y) != 17)
+	{
 	putchar (',');
 	putchar (' ');
 	}
