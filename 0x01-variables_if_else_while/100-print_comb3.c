@@ -16,11 +16,13 @@ int main(void)
 	{
 	if (x > y)
 	{
-	putchar ('y + x' + 48);
+	putchar ('y' + 0);
+	putchar ('x' + 0);
 	y++;
 	else if (y > x)
 	{
-	putchar ('x + y' + 48);
+	putchar ('x' + 0);
+	putchar ('y' + 0);
 	}
 	y++;
 	putchar (',');
