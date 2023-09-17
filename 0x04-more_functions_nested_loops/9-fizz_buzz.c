@@ -6,7 +6,7 @@
 */
 int main(void)
 {
-	for (i = 0 ; i <= 100 ; i++)
+	for (int i = 0 ; i <= 100 ; i++)
 	{
 		if (i % 3 == 0)
 		{
@@ -22,7 +22,7 @@ int main(void)
 		putchar('z');
 		putchar('z');
 		}
-		else if (i % 3 == 0 && i % 5 == 0)
+		else if ((i % 3 == 0) && (i % 5 == 0))
 		{
 		putchar('F');
 		putchar('i');
