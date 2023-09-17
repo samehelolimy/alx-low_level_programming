@@ -11,38 +11,19 @@ int main(void)
 	for (i = 0 ; i <= 100 ; i++)
 	{
 		if (i % 3 == 0)
-		{
-		putchar('F');
-		putchar('i');
-		putchar('z');
-		putchar('z');
-		{
+		printf("Fizz");
 		else if (i % 5 == 0)
-		{
-		putchar('B');
-		putchar('u');
-		putchar('z');
-		putchar('z');
-		}
+		printf("Buzz");
 		else if ((i % 3 == 0) && (i % 5 == 0))
-		{
-		putchar('F');
-		putchar('i');
-		putchar('z');
-		putchar('z');
-		putchar('B');
-		putchar('u');
-		putchar('z');
-		putchar('z');
-		}
+		printf("FizzBuzz");
 		else
 		{
-		putchar(i);
+		printf("%d", i);
 		}
 		if (i != 100)
-		putchar(' ');
+		printf(" ");
 		else
-		putchar('\n');
+		printf("\n");
 		}
 		return (0);
 }
