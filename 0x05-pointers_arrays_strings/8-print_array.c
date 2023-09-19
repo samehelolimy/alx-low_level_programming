@@ -8,9 +8,9 @@ void print_array(int *a, int n)
 {
 	int i;
 
-	for (i = 0 ; a[i] <= n ; i++)
+	for (i = 0 ; i <= n ; i++)
 	{
-		if (a[n] != '\0')
+		if (a[i] != '\0')
 		printf("%d", a[i]);
 		printf("%c", ',');
 	}
