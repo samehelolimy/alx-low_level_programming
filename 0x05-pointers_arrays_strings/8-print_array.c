@@ -12,6 +12,7 @@ void print_array(int *a, int n)
 	{
 		if (a[i] != '\0')
 		printf("%d", a[i]);
-		printf("%c", ',');
+		if (a[i] < a[n])
+		printf(", ");
 	}
 }
