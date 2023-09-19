@@ -5,13 +5,13 @@
 #include "main.h"
 void rev_string(char *s)
 {
-	int i;
+	int i, reverse;
 
 	while (s[i])
 	{
 	i++;
 	while (i--)
-	return (s[i]);
+	reverse = s[i];
 	}
 	putchar('\n');
 }
