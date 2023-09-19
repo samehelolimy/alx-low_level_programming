@@ -11,7 +11,7 @@ void rev_string(char *s)
 	{
 	i++;
 	while (i--)
-	reverse = s[i];
+	putchar(s[i]);
 	}
 	putchar('\n');
 }
