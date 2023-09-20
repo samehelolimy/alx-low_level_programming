@@ -5,11 +5,12 @@
 */
 void puts_half(char *str)
 {
-	int i, x;
+	int i;
+
+	int x = (strlen(str));
 
 	while (i >= (x / 2))
 	{
-		x = (strlen(str));
 		printf("%c", str[i]);
 		if ((x % 2) != 0)
 		{
