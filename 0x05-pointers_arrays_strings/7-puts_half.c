@@ -9,10 +9,10 @@ void puts_half(char *str)
 
 	for (i = 0 ; str[i] != '\0' ; i++)
 	{
-		x++;
-		for (x /= 2 ; str[x] != '\0' ; x++)
+		i++;
+		for (i /= 2 ; str[i] != '\0' ; i++)
 		{
-		printf("%c", str[x]);
+		printf("%c", str[i]);
 		}
 	}
 	printf("\n");
