@@ -5,13 +5,13 @@
 */
 void puts_half(char *str)
 {
-	int i;
+	int i, x;
 
 	for (i = 0 ; str[i] != '\0' ; i++)
-		i++;
-		for (i /= 2 ; str[i] != '\0' ; i++)
+		x++;
+		for (x /= 2 ; str[x] != '\0' ; x++)
 		{
-		printf("%c", str[i]);
+		printf("%c", str[x]);
 		}
 	printf("\n");
 }
