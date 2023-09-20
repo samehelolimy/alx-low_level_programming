@@ -7,19 +7,13 @@ void puts_half(char *str)
 {
 	int i;
 
-	int x = (strlen(str));
-
-	while (i >= (x / 2) && i <= (x - 1))
+	for (i = 0 ; str[i] != '\0' ; i++)
 	{
-		if ((x % 2) != 0)
-		{
-		printf("%c", str[(x - 1) / 2]);
-		}
-		else
+		i++;
+		for (i /= 2 ; str[i] != '\0' ; i++)
 		{
 		printf("%c", str[i]);
 		}
-		i++;
 	}
 	printf("\n");
 }
