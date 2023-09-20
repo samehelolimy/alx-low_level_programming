@@ -9,12 +9,15 @@ void puts_half(char *str)
 
 	int x = (strlen(str));
 
-	while (i >= (x / 2))
+	while (i >= (x / 2) && i <= (x - 1))
 	{
-		printf("%c", str[i]);
 		if ((x % 2) != 0)
 		{
 		printf("%c", str[(x - 1) / 2]);
+		}
+		else
+		{
+		printf("%c", str[i]);
 		}
 		i++;
 	}
