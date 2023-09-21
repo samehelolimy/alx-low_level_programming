@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * _strncat
+ * _strncat - concatenates two strings
  * @src: our parameter
  * @dest: another parameter
  * @n: another one
@@ -10,7 +10,6 @@ char *_strncat(char *dest, char *src, int n)
 {
 	int i = 0;
 	int j = 0;
-	int n;
 
 	while (dest[i] != '\0')
 	i++;
