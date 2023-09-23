@@ -16,7 +16,7 @@ void reverse_array(int *a, int n)
 		printf(a[i]);
 		i--;
 	}
-	a[i] == '\0';
+	a[i] = '\0';
 	return (a);
 }
 
