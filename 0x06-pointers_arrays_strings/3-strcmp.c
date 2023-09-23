@@ -16,7 +16,6 @@ int _strcmp(char *s1, char *s2)
 		{
 		equal = ((int)s1[i] - 48) - ((int)s2[j] - 48);
 		}
-		i++;
 		j++;
 	}
 	return (equal);
