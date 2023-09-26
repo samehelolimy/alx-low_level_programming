@@ -11,11 +11,11 @@ void print_diagsums(int *a, int size)
 
 	size = 0;
 
-	while (a[i][j])
+	while (a[i][j] != '\0')
 	{
 		size += a[i][j];
 		i++;
 		j++;
 	}
-		putchar(size + '0');
+		putchar(size);
 }
