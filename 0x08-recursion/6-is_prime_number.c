@@ -5,7 +5,7 @@
  * @x: another parameter
  * Return: success
 */
-int is_prime_number(int n, x)
+int is_prime_number(int n,int x)
 {
 
 	if (x != 0 && x != 1 && n % (is_prime_number(n)) != 0)
