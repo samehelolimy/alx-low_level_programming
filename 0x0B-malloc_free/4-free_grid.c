@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * 4-free_grid.c - frees a 2 dimensional grid previously 
+ * free_grid- frees a 2 dimensional grid previously
  * @grid: first p
  * @height: second p
  * Return: success
