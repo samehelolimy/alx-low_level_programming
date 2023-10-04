@@ -9,10 +9,11 @@ int **alloc_grid(int width, int height)
 {
 	if (width == 0 || height == 0)
 		return (NULL);
-	int i;
+	int i, j;
+	char *arr;
 
-	for (i = 0; alloc_grid[i] != '\0';)
+	for (i = 0; arr[i][j] != '\0';)
 	{
-		return (alloc_grid);
+		return (*arr);
 	}
 }
