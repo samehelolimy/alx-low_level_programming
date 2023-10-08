@@ -1,7 +1,7 @@
 #include <stdio.h>
 /**
  * main - starting point
- * @args: counter to prog par
+ * @argc: counter to prog par
  * @argv: array of strings
  * Return: 0 success
 */
