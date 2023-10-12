@@ -1,4 +1,4 @@
-#include "main.h"
+#include "function_pointers.h"
 /**
  * print_name - prints a name
  * @name: first par
@@ -7,6 +7,6 @@
 */
 void print_name(char *name, void (*f)(char *))
 {
-	f = name;
-	putchar (f);
+	if (name && f)
+	f(name);
 }
