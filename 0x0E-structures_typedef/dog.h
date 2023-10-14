@@ -2,13 +2,14 @@
 #define DOG_H
 
 /**
- * dog - a struct
+ * struct dog - a struct
  * @name: name
  * @age: age
  * @owner: its owner
  * Description: just a dog
 */
-struct dog {
+struct dog
+{
 	char *name;
 	float age;
 	char *owner;
