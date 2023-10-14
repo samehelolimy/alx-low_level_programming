@@ -6,7 +6,7 @@
  * Return: success
 */
 
-void print_dog(struct dog *d, int age, char *name, char *owner)
+void print_dog(struct dog *d)
 {
 	if (d)
 	{
