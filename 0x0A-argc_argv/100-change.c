@@ -6,7 +6,7 @@
  * @argv: pointer to an array of c l
  * Return:success
  */
-int main(argc, char *argv[])
+int main(int argc, char *argv[])
 {
 	if (argc == 2)
 	{
