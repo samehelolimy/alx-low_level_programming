@@ -36,13 +36,13 @@ int op_mul(int a, int b)
 }
 
 /**
- * op_dev - dev function
+ * op_div - div function
  * @a: first par
  * @b: sec par
  * Return: result
 */
 
-int op_dev(int a, int b)
+int op_div(int a, int b)
 {
         return (a / b);
 }
