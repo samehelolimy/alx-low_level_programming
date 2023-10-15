@@ -44,6 +44,7 @@ void format_string(char *separator, va_list ap)
 		str = "(nil)";
 		printf("%s%s", separator, str);
 }
+
 /**
  * print_all - prints any thing
  * @format: par
@@ -67,7 +68,6 @@ void print_all(const char * const format, ...)
 		while (format && format[i])
 		{
 			j = 0;
-
 			while (token[i].token)
 			{
 				if (format[i] == tokens[j].token[0])
@@ -82,5 +82,3 @@ void print_all(const char * const format, ...)
 		printf("\n");
 		va_end(ap);
 }
-
-
