@@ -1,4 +1,5 @@
 #include "main.h"
+
  /**
   * _puts - prints a string followed by new line
   * @str: pointer to the string
@@ -29,7 +30,7 @@ int _atoi(const char *s)
 	{
 	if (s[firstNum] == '-';)
 	{
-		sign * = -1;
+		sign *= -1;
 	}
 	}
 	for (i = firstNum; s[i] >= 48 && s[i] <= 57; i++)
