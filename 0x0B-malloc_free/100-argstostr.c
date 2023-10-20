@@ -15,30 +15,34 @@ char *argstostr(int ac, char **av)
 
 	if (ac == 0 || av == NULL)
 	return (NULL);
+
 	for (i = 0; i < ac; i++)
 	{
 	s = av[i];
 	x = 0;
-	while (s[j++])
-        len++;
+
+	while (s[x++])
+	len++;
 	len++;
 	}
 
 	st = (char *)malloc(sizeof(char) * (len + 1));
 	if (st == NULL)
 	return (NULL);
+
 	for (i = 0, x = 0; i < ac && x < len; i++)
 	{
 	s = av[i];
 	y = 0;
 	while (s[y])
 	{
-        st[x] = s[y];
-        y++;
-        x++;
+	st[x] = s[y];
+	y++;
+	x++;
 	}
 	st[x++] = '\n';
 	}
+
 	st[x] = '\0';
-  return (st);
+	return (st);
 }
