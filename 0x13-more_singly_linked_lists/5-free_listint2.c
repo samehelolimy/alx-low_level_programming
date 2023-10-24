@@ -8,9 +8,9 @@
 
 void free_listint2(listint_t **head)
 {
-listint_t *node, *tmp;
+	listint_t *node, *tmp;
 
-if (!head)
+	if (!head)
 	return;
 	node = *head;
 	while (node)
